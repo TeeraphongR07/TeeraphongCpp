@@ -3,9 +3,8 @@
 #include<string.h>
 #include<bits/stdc++.h>
 using namespace std;
-int getdata(int &stdid, string &stdname, float &test1, float &test2, float &test3, float&total, float&avr);
-//int average(int &stdid, int &r, int &n, int &search, float &test1, float &test2, float &test3, float&total);
-int average(int &search);
+int getdata(int stdid, string stdname, float test1, float test2, float test3, float total, float avr);
+int average(int &stdid, int &r, int &n, int &search, float &test1, float &test2, float &test3, float&total);
 
 
 int main(){
@@ -84,21 +83,8 @@ int getdata(int &stdid, string &stdname, float &test1, float &test2, float &test
 	avr=total/3;
 }
 
-int average(int &search){
-//int average(int stdid[], int &r, int &n, int &search, float &test1, float &test2, float &test3 ,float &total){
-	cout << "Enter id for search score : ";
-	cin >> search;
-	
-//	for(r=0; r<n; r++){
-//		if(stdid[r] == search){
-//			cout << "stdID = " << r ;
-//			break;
-//		}
-//	}
-//	
-//	if(r == n){
-//		cout << "Not found ";
-//	}
+int average(int search){
+
 
 return(search);
 	
